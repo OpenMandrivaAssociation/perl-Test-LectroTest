@@ -1,6 +1,6 @@
 %define module  Test-LectroTest
 %define name    perl-%{module}
-%define version 0.3500
+%define version 0.3600
 %define release %mkrel 1
 
 Name:           %{name}
