@@ -14,6 +14,7 @@ Source:         http://www.cpan.org/modules/by-module/Test/%{module}-%{version}.
 %if %{mdkversion} < 1010
 BuildRequires:  perl-devel
 %endif
+BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description 
 This module provides a simple (yet full featured) interface to LectroTest, an
