@@ -1,3 +1,5 @@
+%define debug_package %{nil}
+
 %define module  Test-LectroTest
 
 Name:		perl-%{module}
@@ -33,29 +35,3 @@ perl Makefile.PL INSTALLDIRS=vendor
 %doc Changes README
 %{perl_vendorlib}/Test
 %{_mandir}/*/*
-
-%changelog
-* Fri Sep 04 2009 Thierry Vignaud <tvignaud@mandriva.com> 0.3600-4mdv2010.0
-+ Revision: 430598
-- rebuild
-
-* Wed Jul 23 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.3600-3mdv2009.0
-+ Revision: 241981
-- rebuild
-- kill re-definition of %%buildroot on Pixel's request
-
-  + Olivier Blin <oblin@mandriva.com>
-    - restore BuildRoot
-
-* Sat Sep 01 2007 Guillaume Rousse <guillomovitch@mandriva.org> 0.3600-1mdv2008.0
-+ Revision: 77705
-- update to new version 0.3600
-
-
-* Wed Nov 29 2006 Guillaume Rousse <guillomovitch@mandriva.org> 0.3500-1mdv2007.0
-+ Revision: 88632
-- Import perl-Test-LectroTest
-
-* Wed Nov 29 2006 Guillaume Rousse <guillomovitch@mandriva.org> 0.3500-1mdv2007.1
-- first mdv release
-
