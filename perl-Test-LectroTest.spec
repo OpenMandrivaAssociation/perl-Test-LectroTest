@@ -4,7 +4,7 @@
 
 Name:		perl-%{module}
 Version:	0.3600
-Release:	6
+Release:	7
 Summary:	Easy, automatic, specification-based tests
 License:	GPL or Artistic
 Group:		Development/Perl
