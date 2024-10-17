@@ -8,7 +8,7 @@ Release:	7
 Summary:	Easy, automatic, specification-based tests
 License:	GPL or Artistic
 Group:		Development/Perl
-URL:		http://search.cpan.org/dist/%{module}
+URL:		https://search.cpan.org/dist/%{module}
 Source:		http://www.cpan.org/modules/by-module/Test/%{module}-%{version}.tar.bz2
 BuildRequires:	perl-devel
 
